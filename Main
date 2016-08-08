@@ -3,7 +3,7 @@
 <title>Untitled</title>
 </head>
 <body>
-<h1>Hello World, this is my first HTML</h1>
+<h1>Welcome to CreamyMeme, Where the Cream of the Crop Gathers.</h1>
 H1 {text-align:left; color:black; font: normal 40pt "Arial Black"}
 </body>
 </html>
