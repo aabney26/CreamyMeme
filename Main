@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>Welcome to CreamyMeme, Where the Cream of the Crop is Posted.</title>
+<h1>Welcome to CreamyMeme, Where the Cream of the Crop is Posted.</h1>
 H1 {text-align:left; color:black; font: normal 40pt "Arial Black"}
 <title>Untitled</title>
 </head>
