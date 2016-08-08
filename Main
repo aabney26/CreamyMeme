@@ -4,5 +4,6 @@
 </head>
 <body>
 <h1>Hello World, this is my first HTML</h1>
+H1 {text-align:left; color:black; font: normal 40pt "Arial Black"}
 </body>
 </html>
