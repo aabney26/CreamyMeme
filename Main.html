@@ -2,7 +2,11 @@
 
 <html>
 <body bgcolor="#000000">
-<body background="ChickenAlfredoLunch.jpeg">
+
+<img src="ChickenAlfredoLunch.jpeg" id="bg" alt="">
+<div id="bg">
+  <img src="images/bg.jpg" alt="">
+</div>
   
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -15,13 +19,30 @@ h1 {
   text-shadow: 2px 2px #000000;
   text-align: center;
 }  
+
 p {
   color: white;
   text-align: center;
 }
+
 body {
-  background-image: ChickenAlfredoLunch.jpeg;
-  background-repeat: no-repeat;
+ #bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  }
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }
 </style>
 
