@@ -13,6 +13,14 @@ body {
 background-image: url("ChickenAlfredoLunch.jpeg");  
 }
 
+body#background {
+  background: url('img/fullBG.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
 h1 {
   color: orange;
   text-shadow: 2px 2px #000000;
@@ -26,6 +34,9 @@ p {
 </style>
 
 <body>
+<body id="background">
+</body>
+  
 <h1 id="MyHeader">Welcome to CreamyMeme, Where the Cream of the Crop is Posted.</h1>
 <p>This project is still in development.</p>
 <p>When this project is finished, users should be able to upload and like others' pictures.</p>
