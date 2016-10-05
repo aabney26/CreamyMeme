@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 
-<div class="container">
-    <div id="sidebar"></div>
-</div>
-
 <!--The sidebar needs to be fixed and working.-->
-container { 
-position:relative; padding:0 0 0 55px; 
+.top {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
 }
-sidebar {
-	position:absolute;
-	top:0; bottom:0; left:0; 
-	width:50px;
-	background:#000;
+.left {
+    position:absolute;
+    left:0; top:92px; bottom: 0;
+    width: 178px;
+}
+.main {
+    position: absolute;
+    left:178px; top:92px; right:0; bottom:0;
 }
 
 <html>
