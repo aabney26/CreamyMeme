@@ -1,6 +1,7 @@
-<!--I think I will instead use a sql client and somehow correlate that within this hub. MySQL, probably-->
+/*I think I will instead use a sql client and somehow correlate that within this hub. MySQL, probably*/
+/*Look at this webpage!!! - http://www.w3schools.com/SQl/default.asp */
 
-create table employee
+create table picture
 (first varchar(15),
  last varchar(20),
  age number(3),
