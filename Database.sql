@@ -2,3 +2,6 @@
 --Look at this webpage!!! - http://www.w3schools.com/SQl/default.asp
 
 create database CreamyMeme;
+
+create table Pictures (
+  testing1 varbinary(max)
