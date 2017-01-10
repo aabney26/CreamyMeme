@@ -5,3 +5,5 @@ create database CreamyMeme;
 
 create table Pictures (
   testing1 varbinary(max)
+  
+)  
